@@ -10,6 +10,7 @@ Quiz) 사이트별로 비밀번호를 만들어 주는 프로그램을 작성하
 예) 생겅된 비밀번호 : nav51!
 """
 
+# 내 답안
 url = "http://naver.com"
 url = url[7:]
 index = url.index(".")
@@ -18,7 +19,7 @@ password = url[:3] + str(len(url)) + str(url.count("e")) + "!"
 print(password)
 
 
-# 답안
+# 나도코딩 답안
 url = "http://naver.com"
 my_str = url.replace("http://", "")
 my_str = my_str[:my_str.index(".")]
